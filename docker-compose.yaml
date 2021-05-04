@@ -29,9 +29,9 @@ services:
       - 3306:3306
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
-      MYSQL_DATABASE: prestamos
-      MYSQL_USER: edrodce
-      MYSQL_PASSWORD: mtie123
+      MYSQL_DATABASE: books
+      MYSQL_USER: avid_reader
+      MYSQL_PASSWORD: i_love_books
     volumes:
       # Dump files for initiating tables
       - ./data/:/docker-entrypoint-initdb.d/
