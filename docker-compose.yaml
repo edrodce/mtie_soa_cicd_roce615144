@@ -56,8 +56,8 @@ services:
         options:
             max-size: "10k"
             max-file: "10"
-        cap_add: 
-              - SYS_NICE  #CAP_SYS_NICE
+     #   cap_add: 
+     #         - SYS_NICE  #CAP_SYS_NICE
   ###########################
   # ElasticSearch Container # 
   ###########################
