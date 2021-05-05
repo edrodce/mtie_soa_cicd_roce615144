@@ -1,1 +1,0 @@
-SELECT * FROM prestamos.salesorderdetail;
