@@ -54,20 +54,12 @@ cd mtie_soa_cicd_roce615144
 echo '=========================================================='
 echo '===          PASO 6: LIMPIEZA DE DATA                  ==='
 echo '=========================================================='
-if [ -d ~/volumes/ ]; then
-    echo 'sudo rm -R volumes'
-    sudo rm -R volumes
-else
-    echo ''
-    echo 'No existe la carpeta volumes anterior...'
-fi
-
 if [ -d ~/data/ ]; then
     echo 'sudo rm -R data'
     sudo rm -R data
 else
     echo ''
-    echo 'No existe la carpeta volumes data anterior...'
+    echo 'No existe la carpeta data data anterior...'
 fi
 
 echo '=========================================================='
@@ -80,7 +72,7 @@ if [ -d ./volumes/ ]; then
     sudo chmod 777 elasticsearch/
     cd ~/mtie_soa_cicd_roce615144
 else
-    echo 'No existe la carpeta volumes'
+   echo 'No existe la carpeta volumes'
 fi
 
 if [ -d ./data/ ]; then
